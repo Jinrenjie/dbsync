@@ -15,9 +15,9 @@
 > 建议使用Linux 搭建LNPM环境，Windows下未进行测试；
 
 硬件：
-CPU：i5 及以上
-RAM：4G 及以上
-HDD：500G 及以上
+* CPU：i5 及以上
+* RAM：4G 及以上
+* HDD：500G 及以上
 
 软件：
 * CentOS >=7.0
@@ -90,7 +90,9 @@ users
 ##运行
 ---
 For example:
+
 `php artisan sync:record in 61564630 admin admin aaa 5000 --sql --file`
+
 `php artisan sync:record out 61564630 admin admin aaa 5000 --sql --file`
 
 ##录音文件保存位置
